@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Login/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="shortcut icon" href="/imgs/icon.svg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="area-imagem">
+            <img src="/imgs/login-img.svg" alt="">
+        </div>
+
+        <div class="area-forms">
+            <h1>Bem-Vindo de Volta!</h1>
+            <form action="" id="formulario">
+                <div class="topicos">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="inputEmail">
+                    <span class="erro" id="erro-email">Campo Obrigatório</span>
+                </div>
+                <div class="topicos password-container">
+                    <label for="">Senha</label>
+                    <input type="password" name="" id="inputSenha">
+                    <button class="material-symbols-outlined btn-visibilidade" onclick="visibilidade()">visibility_off</button>
+                    <span class="erro" id="erro-senha">Campo Obrigatório</span>
+                </div>
+                <div class="topicos botao">
+                    <button id="cadastrar" class="btn"><a href="/Cadastro/index.html" class="cadastro">Cadastre-se</a></button>
+                    <button class="btn login-btn" type="submit">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="/Login/script.js"></script>
+</body>
+</html>
+

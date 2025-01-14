@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="shortcut icon" href="/imgs/icon.svg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="area-forms">
+            <h1>Seja Bem-Vindo!</h1>
+            <form action="" id="formulario">
+                <div class="topicos">
+                    <label for="">Nome</label>
+                    <input type="text" name="" id="inputNome">
+                    <span class="erro" id="erro-nome">Campo Obrigatório</span>
+                </div>
+                <div class="topicos">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="inputEmail">
+                    <span class="erro" id="erro-email">Campo Obrigatório</span>
+                </div>
+                <div class="topicos password-container">
+                    <label for="">Senha</label>
+                    <input type="password" name="" id="inputSenha">
+                    <button class="material-symbols-outlined btn-visibilidade" onclick="visibilidade()">visibility_off</button>
+                    <span class="erro" id="erro-senha">Campo Obrigatório</span>
+                </div>
+                <div class="topicos password-container">
+                    <label for="">Corfimação de Senha</label>
+                    <input type="password" name="" id="inputSenhaVerificar">
+                    <button class="material-symbols-outlined btn-visibilidade verifica" onclick="visibilidade2()">visibility_off</button>
+                    <span class="erro" id="erro-senha-verificar">Campo Obrigatório</span>
+                </div>
+                <div class="topicos botao">
+                    <button id="logar" class="btn"><a href="/Login/index.html" class="login">Login</a></button>
+                    <button class="btn cadastro-btn" type="submit">Criar Conta</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="area-imagem">
+            <img src="/imgs/cadastro-img.svg" alt="">
+        </div>
+    </main>
+
+    <script src="/Cadastro/script.js"></script>
+</body>
+</html>
